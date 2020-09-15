@@ -34,13 +34,13 @@ class SignUp extends React.Component {
                 confirmPassword: ''
             });
         } catch(error) {
-            console.error(error);
+            console.log(error);
         }
     }
 
     handleChange = event => {
         const { name, value} = event.target;
-        this.setState({[name]: value});
+        this.setState({ [name]: value });
     }
 
     render() {
