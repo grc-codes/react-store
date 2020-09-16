@@ -105,7 +105,7 @@ const SHOP_DATA = [
         id: 16,
         name: 'Air Jordan Limited',
         imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
+      price:  190
       },
       {
         id: 17,
@@ -202,10 +202,10 @@ const SHOP_DATA = [
     ]
   },
   {
-    id: 5,
-    title: 'Mens',
-    routeName: 'mens',
-    items: [
+  id: 5,
+  title: 'Mens',
+  routeName: 'mens',
+  items: [
       {
         id: 30,
         name: 'Camo Down Vest',
