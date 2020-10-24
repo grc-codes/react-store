@@ -16,9 +16,7 @@ const CollectionItem = ({ item, addItem }) => {
         <CollectionItemContainer>
             <ImageContainer
                 className='image'
-                style={{
-                    backgroundImage: `url(${imageUrl})`
-                }}
+                imageUrl={imageUrl}
             />
             <CollectionFooterContainer>
                 <NameContainer>{name}</NameContainer>
